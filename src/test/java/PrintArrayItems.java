@@ -1,9 +1,12 @@
-public class        printNumArray {
+
+
+public class PrintArrayItems {
     public static void main(String[] args) {
-        int[] a = {1, 2, 3, 4, 5};
+        String[] a = {"Default sorting", "Sort by popularity", "Sort by average rating"};
         for (int i = 0; i < a.length; i++) {
             System.out.println(a[i]);
-
         }
     }
 }
+
+
